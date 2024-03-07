@@ -1,0 +1,3 @@
+steps:
+- script: az login --service-principal --username <client-id> --password <client-secret> --tenant <tenant-id>
+  displayName: 'Azure Login'
